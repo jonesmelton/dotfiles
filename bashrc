@@ -2,7 +2,9 @@ export PATH="/usr/local/bin:$PATH"
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 # prompt
-export PS1="\W |>  "
+. ~/dev/dotfiles/git-prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=1
+export PS1='$(__git_ps1 "(%s)")\n\W |> '
 
 # extract common archives from cli
 extract () {
