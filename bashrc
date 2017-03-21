@@ -51,4 +51,4 @@ if [ -f ~/.git-completion.bash ]; then
 fi
 source /Users/j/scratch/composure.sh
 
-export REACT_EDITOR="/Applications/Visual Studio Code.app/Contents/MacOS/Electron"
+export REACT_EDITOR="/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron"
